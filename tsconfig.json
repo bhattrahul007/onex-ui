@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "Bundler",
+
+    "declaration": true,
+    "declarationMap": false,
+    "sourceMap": true,
+    "noEmit": true,
+
+    "rootDir": "src",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+
+    "jsx": "react-jsx",
+
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "types": ["jest", "@types/jest", "node"]
+  },
+  "exclude": ["node_modules", "build", "temp", "tests", "src/**/*.test.tsx", "src/**/*.ts"],
+  "include": ["src"]
+}
