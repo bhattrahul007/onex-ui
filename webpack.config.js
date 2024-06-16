@@ -116,7 +116,7 @@ module.exports = function (env, { mode }) {
       //   ],
       // }),
       isProduction && new MiniCssExtractPlugin({ filename: 'css/app.min.css' }),
-      new HTMLWebpackPlugin({ template: './index.html', inject: 'head', minify: isProduction }),
+      new HTMLWebpackPlugin({ template: './public/index.html', inject: 'head', minify: isProduction }),
     ],
 
     // optimization
