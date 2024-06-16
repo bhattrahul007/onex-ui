@@ -1,5 +1,5 @@
 function App() {
-  return <>This is me</>;
+  return <></>;
 }
 
 export default App;
